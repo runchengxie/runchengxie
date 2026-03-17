@@ -31,7 +31,7 @@ Utilities and workflows for fetching global market data.
 
 ## Stack
 
-`Python` `Pandas` `NumPy` `XGBoost` `SQLite` `Backtesting` `Data Pipelines` `Quant Research`
+`Python` `Pandas` `NumPy` `XGBoost` `TimescaleDB` `Backtesting` `Data Pipelines` `TensorFlow`
 
 ## Elsewhere
 

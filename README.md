@@ -19,8 +19,8 @@ A configurable cross-sectional factor research framework for A-share, Hong Kong,
 ### [a-share-animal-index](https://github.com/runchengxie/a-share-animal-index)
 A reproducible thematic index experiment that tracks A-share companies with animal-related names, benchmarked against CSI 300.
 
-### [tushare-a-fundamentals](https://github.com/runchengxie/tushare-a-fundamentals)
-Utilities and workflows for working with A-share fundamentals data.
+### [daily-messenger](https://github.com/runchengxie/daily-messenger)
+Utilities and workflows for fetching global market data.
 
 ## What I care about
 

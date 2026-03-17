@@ -14,13 +14,13 @@ My recent work focuses on:
 An AI-enhanced multi-factor stock selection and portfolio rebalancing pipeline with backtesting support.
 
 ### [cross-sectional-machine-learning](https://github.com/runchengxie/cross-sectional-machine-learning)
-A configurable cross-sectional factor research framework for A-share, Hong Kong, and US markets. (Private repo, available upon request)
+A configurable cross-sectional factor research framework for the China A-share, Hong Kong, and U.S. equity markets. Currently maintained in a private repository and available upon request.
 
 ### [a-share-animal-index](https://github.com/runchengxie/a-share-animal-index)
 A reproducible thematic index experiment that tracks A-share companies with animal-related names, benchmarked against CSI 300.
 
 ### [daily-messenger](https://github.com/runchengxie/daily-messenger)
-Utilities and workflows for fetching global market data.
+Utilities and workflows for retrieving and processing global market data.
 
 ## What I care about
 

@@ -10,8 +10,8 @@ My recent work focuses on:
 
 ## Selected Projects
 
-### [portfolio-rebalance-pipeline](https://github.com/runchengxie/portfolio-rebalance-pipeline)
-An AI-enhanced multi-factor stock selection and portfolio rebalancing pipeline with backtesting support.
+### [quant-execution-engine](https://github.com/runchengxie/quant-execution-engine)
+A portfolio rebalancing pipeline.
 
 ### [cross-sectional-machine-learning](https://github.com/runchengxie/cross-sectional-machine-learning)
 A configurable cross-sectional factor research framework for the China A-share, Hong Kong, and U.S. equity markets. Currently maintained in a private repository and available upon request.

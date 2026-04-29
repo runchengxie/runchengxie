@@ -1,23 +1,30 @@
 # Hi, I'm Richard
 
-I build reproducible quantitative research, portfolio, and execution tools in Python.
+I build reproducible quantitative research, portfolio construction, and execution infrastructure in Python.
 
 My current work focuses on:
+
 - cross-sectional factor research
-- portfolio construction and rebalancing workflows
-- execution and broker integration
+- classic alpha factor workflows
+- portfolio construction and rebalancing
+- broker execution and operational tooling
 - market data and automated research pipelines
 
 ## Selected Projects
+
+### [money-tree](https://github.com/runchengxie/money-tree)
+An A-share classic-alpha research and backtesting toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360 factor workflows, with data contracts, model adapters, portfolio construction, rolling backtests, holdout validation, and reproducible artifacts.
 
 ### [cross-sectional-machine-learning](https://github.com/runchengxie/cross-sectional-machine-learning)
 A reproducible cross-sectional research framework for equity markets, with configurable workflows for factor research, evaluation, backtesting, and holdings snapshots.
 
 ### [quant-execution-engine](https://github.com/runchengxie/quant-execution-engine)
-A broker-connected execution engine for order generation, reconciliation, exception recovery, and operational workflows.
+A broker-connected execution engine for target-position execution, order lifecycle tracking, reconciliation, exception recovery, and operational workflows.
 
 ### [daily-messenger](https://github.com/runchengxie/daily-messenger)
 An automated market-intelligence pipeline that fetches market and event data, scores themes, renders reports, and distributes summaries.
+
+## Experiments
 
 ### [a-share-animal-index](https://github.com/runchengxie/a-share-animal-index)
 A reproducible thematic index experiment tracking A-share companies with animal-related names, benchmarked against CSI 300.
@@ -26,12 +33,13 @@ A reproducible thematic index experiment tracking A-share companies with animal-
 
 - reproducibility over vague backtest storytelling
 - research pipelines that can be rerun
+- explicit data contracts, audit trails, and reproducible artifacts
 - tools that are small, clear, and actually usable
 - interesting ideas with measurable outputs
 
 ## Stack
 
-`Python` `Pandas` `NumPy` `XGBoost` `TensorFlow` `TimescaleDB` `Backtesting` `Data Pipelines`
+`Python` `Pandas` `NumPy` `scikit-learn` `XGBoost` `Optuna` `PyArrow/Parquet` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Data Pipelines`
 
 ## Elsewhere
 
@@ -41,11 +49,11 @@ A reproducible thematic index experiment tracking A-share companies with animal-
 
 ## 中文简介
 
-我主要用 Python 构建可复现的量化研究、组合管理与执行工具，关注：
+我主要用 Python 构建可复现的量化研究、组合构建与交易执行工具，关注：
 
-- 截面因子研究
-- 组合构建与再平衡
-- 券商执行与交易运维
-- 市场数据与自动化研究流水线
+- 截面因子研究与经典 Alpha 因子流程
+- 组合构建、再平衡与持仓快照
+- 券商执行、订单追踪与交易运维
+- 市场数据、研究流水线与可复现产物
 
 欢迎查看上面的精选项目。

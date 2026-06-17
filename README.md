@@ -16,10 +16,10 @@ My current work focuses on:
 An A-share classic-alpha research and backtesting toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360 factor workflows, with data contracts, model adapters, portfolio construction, rolling backtests, holdout validation, and reproducible artifacts.
 
 ### [cross-sectional-machine-learning](https://github.com/runchengxie/cross-sectional-machine-learning)
-This project is a reproducible framework for cross-sectional tree models in low-frequency factor research on Hong Kong equities. It supports Bagging methods like Random Forests and Boosting methods like XGBoost, covering model research, evaluation, backtesting, governance, feature evidence, benchmarks, data assets, and position snapshots.
+(Private repo, available upon request) This project is a reproducible framework for cross-sectional tree models in low-frequency factor research on Hong Kong equities. It supports Bagging methods like Random Forests and Boosting methods like XGBoost, covering model research, evaluation, backtesting, governance, feature evidence, benchmarks, data assets, and position snapshots. 
 
 ### [market-data-platform](https://github.com/runchengxie/market-data-platform)
-This repository is intended to decouple and extract reusable market data management logic from individual strategy repositories. It will centrally govern data contracts, registry conventions, schemas, data health-check policies, and the workflows for packaging and publishing data.
+(Private repo, available upon request) This repository is intended to decouple and extract reusable market data management logic from individual strategy repositories. It will centrally govern data contracts, registry conventions, schemas, data health-check policies, and the workflows for packaging and publishing data.
 
 ### [quant-execution-engine](https://github.com/runchengxie/quant-execution-engine)
 A broker-connected execution engine for target-position execution, order lifecycle tracking, reconciliation, exception recovery, and operational workflows.

@@ -1,48 +1,58 @@
 # Hi, I'm Richard
 
-I build reproducible quantitative research, portfolio construction, and execution infrastructure in Python.
+I build reproducible quantitative research, market data, portfolio construction, and execution infrastructure in Python.
 
 My current work focuses on:
 
-- cross-sectional factor research
+- market data assets, contracts, and health checks
+- cross-sectional factor and tree-model research
 - classic alpha factor workflows
-- portfolio construction and rebalancing
-- broker execution and operational tooling
-- market data and automated research pipelines
+- portfolio construction, backtesting, and target-position exports
+- broker execution, reconciliation, and operational tooling
+- automated market intelligence and A-share thematic screening
 
 ## Selected Projects
 
-### [money-tree](https://github.com/runchengxie/money-tree)
-An A-share classic-alpha research and backtesting toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360 factor workflows, with data contracts, model adapters, portfolio construction, rolling backtests, holdout validation, and reproducible artifacts.
+### [research-workspace](https://github.com/runchengxie/research-workspace)
+A public entry map for my quantitative R&D platform. It pins and documents how market data, alpha research, portfolio backtesting, strategy orchestration, and `quant-execution-engine` hand off to each other through versioned contracts and target-position files.
 
-### [cross-sectional-machine-learning](https://github.com/runchengxie/cross-sectional-machine-learning)
-(Private repo, available upon request) This project is a reproducible framework for cross-sectional tree models in low-frequency factor research on Hong Kong equities. It supports Bagging methods like Random Forests and Boosting methods like XGBoost, covering model research, evaluation, backtesting, governance, feature evidence, benchmarks, data assets, and position snapshots. 
+### [market-intel](https://github.com/runchengxie/market-intel)
+An automated market-intelligence system for global market data, theme scoring, factor analysis, daily report rendering, and Feishu distribution, with additional A-share data jobs and report pipelines.
 
-### [market-data-platform](https://github.com/runchengxie/market-data-platform)
-(Private repo, available upon request) This repository is intended to decouple and extract reusable market data management logic from individual strategy repositories. It will centrally govern data contracts, registry conventions, schemas, data health-check policies, and the workflows for packaging and publishing data.
+### [hot-sector-screener](https://github.com/runchengxie/hot-sector-screener)
+An A-share thematic opportunity screener that combines Tonghuashun hot rankings, Eastmoney concepts, KaiPanLa components, and ETF rotation signals to produce a 50-100 stock monitoring universe before market open.
 
 ### [quant-execution-engine](https://github.com/runchengxie/quant-execution-engine)
-A broker-connected execution engine for target-position execution, order lifecycle tracking, reconciliation, exception recovery, and operational workflows.
+A broker-connected execution layer that consumes standard `targets.json`, runs preflight checks and rebalance previews, tracks orders, reconciles fills, and keeps audit evidence.
 
-### [daily-messenger](https://github.com/runchengxie/daily-messenger)
-An automated market-intelligence pipeline that fetches market and event data, scores themes, renders reports, and distributes summaries.
-
-## Experiments
+### [money-tree](https://github.com/runchengxie/money-tree)
+An A-share classic-alpha research and backtesting toolkit for Alpha101, Alpha191, Alpha158, and Alpha360 workflows, including factor stores, model adapters, portfolio construction, rolling backtests, holdout validation, and reproducible artifacts.
 
 ### [a-share-animal-index](https://github.com/runchengxie/a-share-animal-index)
 A reproducible thematic index experiment tracking A-share companies with animal-related names, benchmarked against CSI 300.
+
+## Private Infrastructure
+
+Some core platform modules are private and available upon request:
+
+- `market-data-platform`: shared market data asset platform, contracts, registry, quality checks, and published dataset entry points
+- `strategy-pipeline`: low-frequency cross-sectional research orchestration layer for model research, evaluation, backtesting, holdings, and `targets.json` exports
+- `alpha-research`: reusable alpha research package for features, model evidence, walk-forward diagnostics, CPCV/PBO checks, and signal artifacts
+- `portfolio-backtester`: reusable portfolio construction and research backtesting package for Top-K portfolios, turnover, capacity, exposure, and reports
+- `a-share-factor-core`: shared A-share ML core for technical features, training, portfolio optimization, and time-series validation
 
 ## What I care about
 
 - reproducibility over vague backtest storytelling
 - research pipelines that can be rerun
 - explicit data contracts, audit trails, and reproducible artifacts
-- tools that are small, clear, and actually usable
+- clear boundaries between data, research, backtesting, execution, and operations
+- tools that are small, inspectable, and actually usable
 - interesting ideas with measurable outputs
 
 ## Stack
 
-`Python` `Pandas` `NumPy` `scikit-learn` `XGBoost` `Optuna` `PyArrow/Parquet` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Data Pipelines`
+`Python` `Pandas` `NumPy` `scikit-learn` `XGBoost` `LightGBM` `Optuna` `PyArrow/Parquet` `DuckDB` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Ruff` `ty` `GitHub Actions`
 
 ## Elsewhere
 
@@ -52,11 +62,17 @@ A reproducible thematic index experiment tracking A-share companies with animal-
 
 ## 中文简介
 
-我主要用 Python 构建可复现的量化研究、组合构建与交易执行工具，关注：
+我主要用 Python 构建可复现的量化研究、市场数据、组合构建与交易执行工具。
 
-- 截面因子研究与经典 Alpha 因子流程
-- 组合构建、再平衡与持仓快照
-- 券商执行、订单追踪与交易运维
-- 市场数据、研究流水线与可复现产物
+当前主线是把数据平台、alpha 研究、组合回测、策略编排和执行引擎拆成清晰边界，并通过数据契约、研究产物、目标持仓文件和审计证据衔接起来。
 
-欢迎查看上面的精选项目。
+关注方向：
+
+- A 股数据资产、数据质量检查与可复现数据契约
+- 截面因子研究、树模型研究与经典 Alpha 因子流程
+- 组合构建、回测、再平衡与持仓快照
+- 研究到执行的 `targets.json` 交接
+- 券商执行、订单追踪、对账和交易运维
+- 市场情报流水线和盘前题材候选池
+
+欢迎查看上面的公开项目；部分核心基础设施为私有仓库，可按需提供。

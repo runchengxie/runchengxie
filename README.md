@@ -25,7 +25,7 @@ An A-share thematic opportunity screener that combines Tonghuashun hot rankings,
 ### [quant-execution-engine](https://github.com/runchengxie/quant-execution-engine)
 A broker-connected execution layer that consumes standard `targets.json`, runs preflight checks and rebalance previews, tracks orders, reconciles fills, and keeps audit evidence.
 
-### [money-tree](https://github.com/runchengxie/money-tree)
+### [money-trees](https://github.com/runchengxie/money-trees)
 An A-share classic-alpha research and backtesting toolkit for Alpha101, Alpha191, Alpha158, and Alpha360 workflows, including factor stores, model adapters, portfolio construction, rolling backtests, holdout validation, and reproducible artifacts.
 
 ### [a-share-animal-index](https://github.com/runchengxie/a-share-animal-index)

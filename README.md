@@ -82,6 +82,8 @@ Production settings stay in private repositories. Raw market data, credentials, 
 
 `Python` `TypeScript` `JavaScript` `Astro` `Pandas` `NumPy` `scikit-learn` `XGBoost` `LightGBM` `Optuna` `PyArrow/Parquet` `DuckDB` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Ruff` `ty` `GitHub Actions`
 
+I also use Rust for order-book processing, Go for operational tools, and shell scripts for deployment.
+
 ## Elsewhere
 
 - Notes / Website: [runchengxie.github.io](https://runchengxie.github.io)
@@ -91,6 +93,8 @@ Production settings stay in private repositories. Raw market data, credentials, 
 ## 中文简介
 
 我开发量化研究和交易工具，包括市场数据处理、因子研究、组合构建、回测、交易执行和市场报告。
+
+我也用 Rust 处理订单簿，用 Go 编写运维工具，用 Shell 脚本完成部署。
 
 这些项目各自负责一部分工作，通过约定的数据格式和接口交换数据与研究结果。
 

@@ -1,6 +1,6 @@
 # Hi, I'm Richard
 
-I use Python to build tools for quantitative research, market data, portfolio construction, trading, and market reports.
+I build tools for quantitative research, market data, portfolio construction, trading, and market reporting.
 
 My current work focuses on:
 
@@ -80,7 +80,7 @@ Production settings stay in private repositories. Raw market data, credentials, 
 
 ## Stack
 
-`Python` `Pandas` `NumPy` `scikit-learn` `XGBoost` `LightGBM` `Optuna` `PyArrow/Parquet` `DuckDB` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Ruff` `ty` `GitHub Actions`
+`Python` `TypeScript` `JavaScript` `Astro` `Pandas` `NumPy` `scikit-learn` `XGBoost` `LightGBM` `Optuna` `PyArrow/Parquet` `DuckDB` `TuShare` `DolphinDB` `TimescaleDB` `uv` `Ruff` `ty` `GitHub Actions`
 
 ## Elsewhere
 
@@ -90,7 +90,7 @@ Production settings stay in private repositories. Raw market data, credentials, 
 
 ## 中文简介
 
-我主要用 Python 开发量化研究和交易工具，包括市场数据处理、因子研究、组合构建、回测、交易执行和市场报告。
+我开发量化研究和交易工具，包括市场数据处理、因子研究、组合构建、回测、交易执行和市场报告。
 
 这些项目各自负责一部分工作，通过约定的数据格式和接口交换数据与研究结果。
 

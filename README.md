@@ -32,7 +32,7 @@ A [factor research website](https://runchengxie.github.io/quant-factor-observato
 
 ### [quant-intel-platform](https://github.com/runchengxie/quant-intel-platform)
 
-A platform that collects market data and news, checks research files, and turns them into reports and a public dashboard. It also sends reports to configured recipients. [Market reports](https://runchengxie.github.io/quant-intel-platform/) now live here. `quant-intel-pages` keeps the historical reports.
+A platform that collects market data and news, validates research artifacts, and generates reports for configured recipients. The separate [quant-intel-pages](https://github.com/runchengxie/quant-intel-pages) frontend publishes the [public market reports](https://runchengxie.github.io/quant-intel-pages/).
 
 ### [quant-trading-workbench](https://github.com/runchengxie/quant-trading-workbench)
 
@@ -64,11 +64,12 @@ Each project has its own responsibility. They exchange data and results through 
 | `quant-research` (private) | Proprietary strategies, features, models, experiments, and supporting results |
 | `quant-market-research` | Public market studies, methods, and results |
 | `quant-factor-observatory` | Factor catalogs, standardized studies, and reviewed summary results |
-| `quant-intel-platform` | Market reports, research results, dashboards, and report delivery |
+| `quant-intel-platform` | Market-report generation, research-artifact validation, and report delivery |
+| `quant-intel-pages` | Public market-report website and static frontend |
 
 Production settings stay in private repositories. Raw market data, credentials, and full research outputs are stored separately from source code. Public research sites publish reviewed results.
 
-[research-workspace](https://github.com/runchengxie/research-workspace) is archived. It preserves older versions and migration documentation. `alpha-research`, `portfolio-backtester`, `strategy-pipeline`, `quant-execution-engine`, and `deep-learning-tick-data-prediction` are also archived. New development takes place in the projects listed above.
+[research-workspace](https://github.com/runchengxie/research-workspace) is archived. It preserves older versions and migration documentation. `alpha-research`, `portfolio-backtester`, `strategy-pipeline`, and `quant-execution-engine` are also archived. New development takes place in the projects listed above.
 
 ## What I care about
 
@@ -105,7 +106,8 @@ I also use Rust for order-book processing, Go for operational tools, and shell s
 - `quant-backtest-runtime` 执行提交的回测任务，记录任务状态并发布结果。
 - `quant-market-research` 发布市场研究方法和结果，方便读者查看和复现。
 - `quant-factor-observatory` 展示因子定义、数据质量、研究进展和审核后的汇总结果。
-- `quant-intel-platform` 生成市场日报，在网页上展示数据和研究结果，并发送报告。
+- `quant-intel-platform` 采集市场数据与新闻、校验研究产物、生成和投递市场日报。
+- `quant-intel-pages` 负责公开市场日报网站和静态前端。
 - `quant-trading-workbench` 用于观察市场、研究日内交易思路和测试模拟组合。
 - `money-trees` 计算和挖掘经典因子，训练模型并进行滚动验证。
 - `ai-stock-picker` 用大语言模型对已有股票候选名单排序，保存结果、输入数据和模型调用记录。
@@ -113,4 +115,4 @@ I also use Rust for order-book processing, Go for operational tools, and shell s
 
 策略细节、模型和完整研究记录保留在私有仓库 `quant-research` 中，生产配置也保存在私有仓库中。原始市场数据、密钥和完整运行结果存放在代码仓库之外。公开网站发布审核后的研究结果。
 
-`research-workspace` 等旧框架仓库已归档，保留历史版本和迁移说明。`quant-intel-pages` 保留历史报告，新日报请查看 `quant-intel-platform`。
+`research-workspace` 等旧框架仓库已归档，保留历史版本和迁移说明。公开市场日报由 [`quant-intel-pages`](https://runchengxie.github.io/quant-intel-pages/) 发布，`quant-intel-platform` 负责生成、校验和投递。

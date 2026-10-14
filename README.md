@@ -6,6 +6,7 @@ My current work focuses on:
 
 - market data collection, quality checks, and versioned datasets
 - cross-sectional factor research and tree-based models
+- deep-learning research on order-book, minute, and event-stream data
 - classic alpha factor workflows and out-of-sample validation
 - portfolio construction, backtesting, risk analysis, and target-position exports
 - broker execution, reconciliation, and operational tooling
@@ -42,6 +43,10 @@ A workbench for following markets, studying intraday trading ideas, and testing 
 
 An A-share factor research toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360. It supports factor calculation in Python and DolphinDB, factor mining with genetic algorithms, model training, and rolling validation. It also produces Alpha 810 summary results for `quant-factor-observatory`.
 
+### [quant-deep-learning](https://github.com/runchengxie/quant-deep-learning)
+
+An independent research project on deep-learning models for structured market data. Current work studies next-day cross-sectional prediction on Chinese A-shares using order-book snapshots, minute-level inputs, and L2 event streams. The FI-2010 reproduction is tracked as a separate research track.
+
 ## Selected Research and Experiments
 
 ### [a-share-zoo-garden](https://github.com/runchengxie/a-share-zoo-garden)
@@ -64,6 +69,7 @@ Each project has its own responsibility. They exchange data and results through 
 | `quant-research` (private) | Proprietary strategies, features, models, experiments, and supporting results |
 | `quant-market-research` | Public market studies, methods, and results |
 | `quant-factor-observatory` | Factor catalogs, standardized studies, and reviewed summary results |
+| `quant-deep-learning` | Deep-learning model research for structured market data |
 | `quant-intel-platform` | Market-report generation, research-artifact validation, and report delivery |
 | `quant-intel-pages` | Public market-report website and static frontend |
 
@@ -110,6 +116,7 @@ I also use Rust for order-book processing, Go for operational tools, and shell s
 - `quant-intel-pages` 负责公开市场日报网站和静态前端。
 - `quant-trading-workbench` 用于观察市场、研究日内交易思路和测试模拟组合。
 - `money-trees` 计算和挖掘经典因子，训练模型并进行滚动验证。
+- `quant-deep-learning` 独立研究结构化市场数据的深度学习模型，当前关注 A 股次日横截面预测和盘口、分钟及 L2 事件流输入。FI-2010 复现单独记录。
 - `ai-stock-picker` 用大语言模型对已有股票候选名单排序，保存结果、输入数据和模型调用记录。
 - `a-share-zoo-garden` 根据公司历史名称构建动植物主题指数，并与沪深 300 比较。
 

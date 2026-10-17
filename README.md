@@ -33,7 +33,7 @@ A [factor research website](https://runchengxie.github.io/quant-factor-observato
 
 ### [money-trees](https://github.com/runchengxie/money-trees)
 
-An A-share classic-factor toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360. It supports Python or DolphinDB generation, validation, a factor store, genetic-programming mining, and research-evidence production. Portfolio construction, risk, execution simulation, and backtest jobs belong to `quant-platform` and `quant-backtest-runtime`.
+An A-share classic-alpha toolkit for factor computation, validation, genetic-algorithm mining, and research evidence across Alpha101, Alpha191, Alpha158, and Alpha360. It supports local Python and DolphinDB generation paths and rolling backtests. Portfolio construction, risk analysis, execution simulation, and backtest jobs belong to `quant-platform` and `quant-backtest-runtime`.
 
 ### [quant-intel-platform](https://github.com/runchengxie/quant-intel-platform)
 
@@ -42,10 +42,6 @@ A platform that collects market data and news, validates research artifacts, and
 ### [quant-trading-workbench](https://github.com/runchengxie/quant-trading-workbench)
 
 A workbench for following markets, studying intraday trading ideas, and testing paper portfolios across A-share, Hong Kong, and US markets. Its web dashboard lets researchers inspect the data and results behind an idea.
-
-### [money-trees](https://github.com/runchengxie/money-trees)
-
-An A-share factor research toolkit covering Alpha101, Alpha191, Alpha158, and Alpha360. It supports factor calculation in Python and DolphinDB, factor mining with genetic algorithms, model training, and rolling validation. It also produces Alpha 810 summary results for `quant-factor-observatory`.
 
 ### [quant-deep-learning](https://github.com/runchengxie/quant-deep-learning)
 
@@ -119,7 +115,7 @@ I also use Rust for order-book processing, Go for operational tools, and shell s
 - `quant-intel-platform` 采集市场数据与新闻、校验研究产物、生成和投递市场日报。
 - `quant-intel-pages` 负责公开市场日报网站和静态前端。
 - `quant-trading-workbench` 用于观察市场、研究日内交易思路和测试模拟组合。
-- `money-trees` 提供 A 股经典因子计算、校验和研究证据生成，涵盖 Alpha101、Alpha191、Alpha158 和 Alpha360，支持 Python 或 DolphinDB 生成、因子仓库和遗传算法挖掘。组合构建、风险分析、执行模拟和回测任务由 `quant-platform` 与 `quant-backtest-runtime` 负责。
+- `money-trees` 是 A 股经典因子研究工具，涵盖 Alpha101、Alpha191、Alpha158 和 Alpha360，支持因子计算、校验、遗传算法挖掘、研究证据生成，以及 Python 和 DolphinDB 两种本地生成路径与滚动回测。组合构建、风险分析、执行模拟和回测任务由 `quant-platform` 与 `quant-backtest-runtime` 负责。
 - `quant-deep-learning` 独立研究结构化市场数据的深度学习模型，当前关注 A 股次日横截面预测和盘口、分钟及 L2 事件流输入。FI-2010 复现单独记录。
 - `ai-stock-picker` 用大语言模型对已有股票候选名单排序，保存结果、输入数据和模型调用记录。
 - `a-share-zoo-garden` 根据公司历史名称构建动植物主题指数，并与沪深 300 比较。
